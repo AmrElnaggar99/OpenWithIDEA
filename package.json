@@ -2,6 +2,10 @@
   "name": "open-with-rider",
   "displayName": "OpenWithRider",
   "description": "open your current file in IDEA rider on same line same column",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PostCyberPunk/OpenWithRider.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
