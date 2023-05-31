@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "open-with-rider.helloWorld",
-        "title": "Hello World"
+        "command": "open-with-rider.open",
+        "title": "Open with Rider"
       }
     ]
   },
