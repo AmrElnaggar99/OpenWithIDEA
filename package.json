@@ -1,7 +1,7 @@
 {
-  "name": "open-with-rider",
-  "displayName": "OpenWithRider",
-  "description": "open your current file in IDEA rider on same line same column",
+  "name": "open-with-idea",
+  "displayName": "OpenWithIDEA",
+  "description": "open your current file in IntelliJ IDEA on same line same column",
   "repository": {
     "type": "git",
     "url": "https://github.com/PostCyberPunk/OpenWithRider.git"
@@ -18,8 +18,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "open-with-rider.open",
-        "title": "Open with Rider"
+        "command": "open-with-idea.open",
+        "title": "Open with IDEA"
       }
     ]
   },
@@ -43,5 +43,6 @@
     "mocha": "^10.2.0",
     "typescript": "^5.0.4",
     "@vscode/test-electron": "^2.3.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

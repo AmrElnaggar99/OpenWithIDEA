@@ -4,25 +4,39 @@
 
 ## Features
 
-Open your current file in IDEA on same line and column
+Open your current file in IntelliJ IDEA on same line and column
 
 ## Requirements
 
-add idea to PATH
+Add IDEA to PATH
 on mac:
+
 ```
 sudo ln -s "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea" /usr/local/bin/idea
 ```
-or 
+
+or
+
 ```
 sudo ln -s "/Applications/IntelliJ IDEA CE.app/Contents/MacOS/idea" /usr/local/bin/idea
 ```
+
+on Windows:
+Add the IDEA bin directory to your PATH environment variable. The default location is:
+
+```
+C:\Program Files\JetBrains\IntelliJ IDEA\bin
+```
+
 ## Extension Settings
-you can setup a keyborad shortcut to command 
+
+You can setup a keyboard shortcut to command:
+
 ```
 {
   "key": "",
   "command": "open-with-idea.open"
 }
 ```
+
 **Enjoy!**
