@@ -25,4 +25,12 @@ you can setup a keyborad shortcut to command
   "command": "open-with-idea.open"
 }
 ```
-**Enjoy!**
+
+## Deployment
+After you make your changes and run and test them with `F5`, you will want to compile the project to a VSIX file.
+1. `npm run compile`
+2. `npm install -g @vscode/vsce`
+3. `vsce package`
+4. Install the recently created file by running:
+`code --install-extension open-with-idea-0.0.1.vsix`
+
